@@ -1,0 +1,107 @@
+{
+"latitudeDelta": 0.001,
+"latutude": 6.268959,
+"longitude": -75.5459209,
+"longitudeDelta": 0.001,
+}
+
+LOCATION_FOREGROUND = ubicación en primer plano
+LOCATION_BACKGROUND = ubicación en segundo plano
+
+import { PermissionStatus, PermissionResponse } from 'unimodules-permissions-interface';
+import { LocationAccuracy, LocationCallback, LocationGeocodedAddress, LocationGeocodedLocation, LocationHeadingCallback, LocationHeadingObject, LocationLastKnownOptions, LocationObject, LocationOptions, LocationPermissionResponse, LocationProviderStatus, LocationRegion, LocationSubscription, LocationTaskOptions, LocationActivityType, LocationGeofencingEventType, LocationGeofencingRegionState, LocationGeocodingOptions } from './Location.types';
+import { LocationEventEmitter } from './LocationEventEmitter';
+import { setGoogleApiKey } from './LocationGoogleGeocoding';
+import { _getCurrentWatchId } from './LocationSubscribers';
+
+export declare function getProviderStatusAsync(): Promise<LocationProviderStatus>;
+--- Verifique el estado de los proveedores de ubicación.
+
+export declare function enableNetworkProviderAsync(): Promise<void>;
+--- Solicitudes de entrega única de la ubicación actual del usuario.
+	Dependiendo de la opción de "precisión" dada, puede llevar algún tiempo resolverlo,
+	especialmente cuando estás dentro de un edificio.
+
+ESTA ME TRABAJA BIEN
+export declare function getCurrentPositionAsync(options?: LocationOptions): Promise<LocationObject>;
++++ Obtiene la última posición conocida del dispositivo o "nulo" si no está disponible
+  * o no cumple con los requisitos establecidos, como la edad máxima o la precisión requerida.
+  * Se considera más rápido que `getCurrentPositionAsync` ya que no solicita la ubicación actual.
+ */
+
+ESTA SOLO ABRE EL MAPA 
+export declare function getLastKnownPositionAsync(options?: LocationLastKnownOptions): Promise<LocationObject | null>;
+--- Empieza a buscar cambios de ubicación.
+    Se llamará a la devolución de llamada dada una vez que la nueva ubicación esté disponible.
+ 
+	Obtiene la última posición conocida del dispositivo. Se considera que es más rápido
+	getCurrentPositionAsyncporque no solicita la ubicación actual, pero tenga en cuenta
+	que la ubicación devuelta puede no estar actualizada.
+	
+export declare function watchPositionAsync(options: LocationOptions, callback: LocationCallback): Promise<{
+    remove(): void;
+}>;
+--- Se resuelve en un objeto con detalles de encabezado actuales.
+  * Para simplificar, llama a `watchHeadingAsync` y espera un par de actualizaciones
+  * y devuelve el que sea lo suficientemente preciso.
+ */
+export declare function getHeadingAsync(): Promise<LocationHeadingObject>;
+/**
+* Empieza a buscar cambios de rumbo.
+  * La devolución de llamada dada se llamará una vez que el nuevo encabezado esté disponible.
+ */
+export declare function watchHeadingAsync(callback: LocationHeadingCallback): Promise<LocationSubscription>;
+/**
+* Los códigos geográficos dan dirección a una serie de coordenadas de latitud y longitud.
+ */
+export declare function geocodeAsync(address: string, options?: LocationGeocodingOptions): Promise<LocationGeocodedLocation[]>;
+/**
+* El comportamiento opuesto de `geocodeAsync`: traduce las coordenadas de ubicación a una matriz de direcciones.
+ */
+export declare function reverseGeocodeAsync(location: Pick<LocationGeocodedLocation, 'latitude' | 'longitude'>, options?: LocationGeocodingOptions): Promise<LocationGeocodedAddress[]>;
+/**
+* Obtiene el estado actual de los permisos de ubicación.
+  * @deprecated Utilice `getForegroundPermissions` o` getBackgroundPermissions` en su lugar.
+ */
+export declare function getPermissionsAsync(): Promise<LocationPermissionResponse>;
+/**
+* Solicita al usuario que otorgue permisos de ubicación.
+  * @deprecated Utilice `requestForegroundPermissionsAsync` o` requestBackgroundPermissionsAsync` en su lugar.
+ */
+export declare function requestPermissionsAsync(): Promise<LocationPermissionResponse>;
+/**
+* Obtiene el estado actual de los permisos de ubicación en primer plano.
+ */
+export declare function getForegroundPermissionsAsync(): Promise<LocationPermissionResponse>;
+/**
+* Solicita al usuario que otorgue permisos de ubicación en primer plano.
+ */
+export declare function requestForegroundPermissionsAsync(): Promise<LocationPermissionResponse>;
+/**
+* Obtiene el estado actual de los permisos de ubicación en segundo plano.
+ */
+export declare function getBackgroundPermissionsAsync(): Promise<PermissionResponse>;
+/**
+* Solicita al usuario que otorgue permisos de ubicación en segundo plano.
+ */
+export declare function requestBackgroundPermissionsAsync(): Promise<PermissionResponse>;
+/**
+* Devuelve "verdadero" si el dispositivo tiene habilitados los servicios de ubicación o "falso" en caso contrario.
+ */
+export declare function hasServicesEnabledAsync(): Promise<boolean>;
+export declare function isBackgroundLocationAvailableAsync(): Promise<boolean>;
+export declare function startLocationUpdatesAsync(taskName: string, options?: LocationTaskOptions): Promise<void>;
+export declare function stopLocationUpdatesAsync(taskName: string): Promise<void>;
+export declare function hasStartedLocationUpdatesAsync(taskName: string): Promise<boolean>;
+export declare function startGeofencingAsync(taskName: string, regions?: LocationRegion[]): Promise<void>;
+export declare function stopGeofencingAsync(taskName: string): Promise<void>;
+export declare function hasStartedGeofencingAsync(taskName: string): Promise<boolean>;
+/**
+ * @deprecated
+ * Deprecated as of SDK39 in favour of `setGoogleApiKey`.
+ */
+export declare function setApiKey(apiKey: string): void;
+export { LocationEventEmitter as EventEmitter, _getCurrentWatchId };
+export { LocationAccuracy as Accuracy, LocationActivityType as ActivityType, LocationGeofencingEventType as GeofencingEventType, LocationGeofencingRegionState as GeofencingRegionState, PermissionStatus, setGoogleApiKey, };
+export { installWebGeolocationPolyfill } from './GeolocationPolyfill';
+export * from './Location.types';

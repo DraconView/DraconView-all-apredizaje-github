@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Mi primer p&aacute;gina dise&ntilde;ada en HTML5</title>
+<meta charset="utf-8" />
+<meta name="description" content="Aqui va la descripción de mi sitio" />
+<link rel="stylesheet" type="text/css" href="css/estilos.css" />
+</head>
+<body>
+<header>
+<h1>Mi encabezado principal</h1>
+<figure>
+Logo
+<figcaption>Titulo logo</figcaption>
+</figure>
+</header>
+<nav>
+Men&uacute; de navegaci&oacute;n
+</nav>
+<section>
+<hgroup>
+<h1>Mi encabezado secundario</h1>
+<h2>Un sub encabezado de tipo h2</h2>
+</hgroup>
+<article>
+Esto es un art&iacute;culo de contenido
+<section>
+Otra secci&oacute;n dentro de un art&iacute;culo
+</section>
+</article>
+</section>
+<aside>
+Contenido secundario sin relevancia
+</aside>
+<footer>
+aprendiendo HTML5 con @jonmircha 
+</footer>
+</body>
+</html>
+
+
+
+doctipe entiende que se va trabajar con el estandar html
+lang se debe especificar el idioma 
+head parte principal metainformacion no se puede ver en el dom
+meta formato abren y cierran en la misma linea
+meta descripcion del sitio localizada por los navegadores y la exponen en los resultados
+etiqueta title es la referencia que aparece en las pestañas o ventanas
+body contenido a visualizar en el dom
+header cabecera dentro del cuerpo
+h1 titulo con tamaño mayor
+figure logo del sitio
+figcaption titulo de nuestro logo
+nav botonera o menu navegacion
+seccion define un area unica de contenido dentro del sitio puede ir un section dentro de otro section
+articul dentro de section zona unica de contenido independiente ejemplo comentarios en youtube
+hgroup agrupa los h1 sin que pierdan semantica en el buscador
+footer contenido pie de pagina 
+para acentuar una letra se coloca p&aacute;gina => pagina
+----------
