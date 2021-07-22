@@ -1,7 +1,11 @@
 -------------------- Propiedades - jonmircha CAP5 ----------------------
-- los string se pasan entre comillas dobles
-- los numeros se pasan entre llaves {}
-- los bolean se pasan entre llaves {}
+- string se pasan entre comillas dobles
+- numeros se pasan entre llaves {}
+- bolean se pasan entre llaves {}
+- arreglos se pasan entre llaves {[1,2,3]}
+- objetos se pasan entre dobles llaves {{nombre:"jon",correo:"xx"}}
+- elementos elementoReact={<i>elemento react</i>}
+- funcion = {(num) => num * num} en el componente {props.arreglo.map(props.funcion).join(", ")}
 
 pasar un atributo name al componente
 <Welcome name="Jon" />
