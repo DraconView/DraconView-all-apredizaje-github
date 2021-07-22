@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es"> 
 <head>
 <title>Mi primer p&aacute;gina dise&ntilde;ada en HTML5</title>
-<meta charset="utf-8" />
+<meta charset="utf-8" /> // 
 <meta name="description" content="Aqui va la descripción de mi sitio" />
 <link rel="stylesheet" type="text/css" href="css/estilos.css" />
-</head>
-<body>
+</head> // es lo que se prepara antes de que se cargue lo visual del sitio web 
+<body> // es lo que ve visualmente 
 <header>
 <h1>Mi encabezado principal</h1>
 <figure>

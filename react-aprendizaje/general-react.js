@@ -1,0 +1,1 @@
+la etiqueta hr de react es lo mismo que un divaisor en react native
