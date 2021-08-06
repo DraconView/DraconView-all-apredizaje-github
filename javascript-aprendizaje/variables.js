@@ -1,3 +1,5 @@
+agregar ejercicios de asignar valores a las variables de react zulu cap03
+
 - var(variables globales no hace validaciones de duplicidad)
 
 - let(variables de bloque) 

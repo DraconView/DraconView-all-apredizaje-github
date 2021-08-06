@@ -1,0 +1,1093 @@
+INFO
+20:17
+startRestaurant 
+INFO
+20:17
+Zu {
+  "_": vu {
+    "Hf": Ku {
+      "firestore": Qu {
+        "INTERNAL": Object {
+          "delete": [Function _delete],
+        },
+        "Id": qu {},
+        "_": tu {
+          "A_": FirebaseAppImpl {
+            "automaticDataCollectionEnabled_": false,
+            "container": ComponentContainer {
+              "name": "[DEFAULT]",
+              "providers": Map {
+                "app" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "app",
+                    "serviceProps": Object {},
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => [Circular],
+                  },
+                  "instancesDeferred": Map {},
+                  "name": "app",
+                },
+                "platform-logger" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "platform-logger",
+                    "serviceProps": Object {},
+                    "type": "PRIVATE",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "platform-logger",
+                },
+                "fire-core-rn-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-core-rn-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-core-rn-version",
+                },
+                "fire-js-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-js-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-js-version",
+                },
+                "firebase-app-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "firebase-app-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "firebase-app-version",
+                },
+                "firestore" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "firestore",
+                    "serviceProps": Object {
+                      "Blob": [Function $],
+                      "CACHE_SIZE_UNLIMITED": -1,
+                      "CollectionReference": [Function sh],
+                      "DocumentReference": [Function zu],
+                      "DocumentSnapshot": [Function Xu],
+                      "FieldPath": [Function rh],
+                      "FieldValue": [Function oh],
+                      "Firestore": [Function Qu],
+                      "GeoPoint": [Function sa],
+                      "Query": [Function th],
+                      "QueryDocumentSnapshot": [Function Zu],
+                      "QuerySnapshot": [Function nh],
+                      "Timestamp": [Function H],
+                      "Transaction": [Function Wu],
+                      "WriteBatch": [Function Gu],
+                      "setLogLevel": [Function ju],
+                    },
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => [Circular],
+                  },
+                  "instancesDeferred": Map {},
+                  "name": "firestore",
+                },
+                "fire-fst-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-fst-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-fst-version",
+                },
+                "auth" => Provider {
+                  "component": Object {
+                    "instanceFactory": [Function instanceFactory],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "auth",
+                    "serviceProps": Object {
+                      "ActionCodeInfo": Object {
+                        "Operation": Object {
+                          "EMAIL_SIGNIN": "EMAIL_SIGNIN",
+                          "PASSWORD_RESET": "PASSWORD_RESET",
+                          "RECOVER_EMAIL": "RECOVER_EMAIL",
+                          "REVERT_SECOND_FACTOR_ADDITION": "REVERT_SECOND_FACTOR_ADDITION",
+                          "VERIFY_AND_CHANGE_EMAIL": "VERIFY_AND_CHANGE_EMAIL",
+                          "VERIFY_EMAIL": "VERIFY_EMAIL",
+                        },
+                      },
+                      "ActionCodeURL": [Function d],
+                      "Auth": [Function En],
+                      "AuthCredential": [Function Bg],
+                      "EmailAuthProvider": [Function d],
+                      "Error": [Function t],
+                      "FacebookAuthProvider": [Function d],
+                      "GithubAuthProvider": [Function d],
+                      "GoogleAuthProvider": [Function d],
+                      "OAuthProvider": [Function d],
+                      "PhoneAuthProvider": [Function d],
+                      "PhoneMultiFactorGenerator": [Function d],
+                      "RecaptchaVerifier": [Function d],
+                      "SAMLAuthProvider": [Function d],
+                      "TwitterAuthProvider": [Function d],
+                    },
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => Object {
+                      "apiKey": "AIzaSyAKWkrRBAiYrFTQdF4hEH4wL6SS-QjlZKw",
+                      "appName": "[DEFAULT]",
+                      "authDomain": "inventic2306170621.firebaseapp.com",
+                      "currentUser": Object {
+                        "apiKey": "AIzaSyAKWkrRBAiYrFTQdF4hEH4wL6SS-QjlZKw",
+                        "appName": "[DEFAULT]",
+                        "authDomain": "inventic2306170621.firebaseapp.com",
+                        "createdAt": "1623993043980",
+                        "displayName": "Alex Noruega ",
+                        "email": "2060fw4r@gmail.com",
+                        "emailVerified": false,
+                        "isAnonymous": false,
+                        "lastLoginAt": "1627240375400",
+                        "multiFactor": Object {
+                          "enrolledFactors": Array [],
+                        },
+                        "phoneNumber": null,
+                        "photoURL": "https://firebasestorage.googleapis.com/v0/b/inventic2306170621.appspot.com/o/avatars%2FjyvyBYBaakSCPsPgNeJdMavKHCj2?alt=media&token=ba8bbc55-fcb3-4298-86f9-814457ebb41c",
+                        "providerData": Array [
+                          Object {
+                            "displayName": "Alex Noruega ",
+                            "email": "2060fw4r@gmail.com",
+                            "phoneNumber": null,
+                            "photoURL": "https://firebasestorage.googleapis.com/v0/b/inventic2306170621.appspot.com/o/avatars%2FjyvyBYBaakSCPsPgNeJdMavKHCj2?alt=media&token=ba8bbc55-fcb3-4298-86f9-814457ebb41c",
+                            "providerId": "password",
+                            "uid": "2060fw4r@gmail.com",
+                          },
+                        ],
+                        "redirectEventId": null,
+                        "stsTokenManager": Object {
+                          "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjFiYjk2MDVjMzZlOThlMzAxMTdhNjk1MTc1NjkzODY4MzAyMDJiMmQiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWxleCBOb3J1ZWdhICIsInBpY3R1cmUiOiJodHRwczovL2ZpcmViYXNlc3RvcmFnZS5nb29nbGVhcGlzLmNvbS92MC9iL2ludmVudGljMjMwNjE3MDYyMS5hcHBzcG90LmNvbS9vL2F2YXRhcnMlMkZqeXZ5QllCYWFrU0NQc1BnTmVKZE1hdktIQ2oyP2FsdD1tZWRpYSZ0b2tlbj1iYThiYmM1NS1mY2IzLTQyOTgtODZmOS04MTQ0NTdlYmI0MWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaW52ZW50aWMyMzA2MTcwNjIxIiwiYXVkIjoiaW52ZW50aWMyMzA2MTcwNjIxIiwiYXV0aF90aW1lIjoxNjI3MjQwMzg3LCJ1c2VyX2lkIjoianl2eUJZQmFha1NDUHNQZ05lSmRNYXZLSENqMiIsInN1YiI6Imp5dnlCWUJhYWtTQ1BzUGdOZUpkTWF2S0hDajIiLCJpYXQiOjE2MjcyNjA1MzEsImV4cCI6MTYyNzI2NDEzMSwiZW1haWwiOiIyMDYwZnc0ckBnbWFpbC5jb20iLCJ...(truncated to the first 10000 characters)
+INFO
+20:17
+startRestaurant 
+INFO
+20:17
+Zu {
+  "_": vu {
+    "Hf": Ku {
+      "firestore": Qu {
+        "INTERNAL": Object {
+          "delete": [Function _delete],
+        },
+        "Id": qu {},
+        "_": tu {
+          "A_": FirebaseAppImpl {
+            "automaticDataCollectionEnabled_": false,
+            "container": ComponentContainer {
+              "name": "[DEFAULT]",
+              "providers": Map {
+                "app" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "app",
+                    "serviceProps": Object {},
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => [Circular],
+                  },
+                  "instancesDeferred": Map {},
+                  "name": "app",
+                },
+                "platform-logger" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "platform-logger",
+                    "serviceProps": Object {},
+                    "type": "PRIVATE",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "platform-logger",
+                },
+                "fire-core-rn-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-core-rn-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-core-rn-version",
+                },
+                "fire-js-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-js-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-js-version",
+                },
+                "firebase-app-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "firebase-app-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "firebase-app-version",
+                },
+                "firestore" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "firestore",
+                    "serviceProps": Object {
+                      "Blob": [Function $],
+                      "CACHE_SIZE_UNLIMITED": -1,
+                      "CollectionReference": [Function sh],
+                      "DocumentReference": [Function zu],
+                      "DocumentSnapshot": [Function Xu],
+                      "FieldPath": [Function rh],
+                      "FieldValue": [Function oh],
+                      "Firestore": [Function Qu],
+                      "GeoPoint": [Function sa],
+                      "Query": [Function th],
+                      "QueryDocumentSnapshot": [Function Zu],
+                      "QuerySnapshot": [Function nh],
+                      "Timestamp": [Function H],
+                      "Transaction": [Function Wu],
+                      "WriteBatch": [Function Gu],
+                      "setLogLevel": [Function ju],
+                    },
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => [Circular],
+                  },
+                  "instancesDeferred": Map {},
+                  "name": "firestore",
+                },
+                "fire-fst-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-fst-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-fst-version",
+                },
+                "auth" => Provider {
+                  "component": Object {
+                    "instanceFactory": [Function instanceFactory],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "auth",
+                    "serviceProps": Object {
+                      "ActionCodeInfo": Object {
+                        "Operation": Object {
+                          "EMAIL_SIGNIN": "EMAIL_SIGNIN",
+                          "PASSWORD_RESET": "PASSWORD_RESET",
+                          "RECOVER_EMAIL": "RECOVER_EMAIL",
+                          "REVERT_SECOND_FACTOR_ADDITION": "REVERT_SECOND_FACTOR_ADDITION",
+                          "VERIFY_AND_CHANGE_EMAIL": "VERIFY_AND_CHANGE_EMAIL",
+                          "VERIFY_EMAIL": "VERIFY_EMAIL",
+                        },
+                      },
+                      "ActionCodeURL": [Function d],
+                      "Auth": [Function En],
+                      "AuthCredential": [Function Bg],
+                      "EmailAuthProvider": [Function d],
+                      "Error": [Function t],
+                      "FacebookAuthProvider": [Function d],
+                      "GithubAuthProvider": [Function d],
+                      "GoogleAuthProvider": [Function d],
+                      "OAuthProvider": [Function d],
+                      "PhoneAuthProvider": [Function d],
+                      "PhoneMultiFactorGenerator": [Function d],
+                      "RecaptchaVerifier": [Function d],
+                      "SAMLAuthProvider": [Function d],
+                      "TwitterAuthProvider": [Function d],
+                    },
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => Object {
+                      "apiKey": "AIzaSyAKWkrRBAiYrFTQdF4hEH4wL6SS-QjlZKw",
+                      "appName": "[DEFAULT]",
+                      "authDomain": "inventic2306170621.firebaseapp.com",
+                      "currentUser": Object {
+                        "apiKey": "AIzaSyAKWkrRBAiYrFTQdF4hEH4wL6SS-QjlZKw",
+                        "appName": "[DEFAULT]",
+                        "authDomain": "inventic2306170621.firebaseapp.com",
+                        "createdAt": "1623993043980",
+                        "displayName": "Alex Noruega ",
+                        "email": "2060fw4r@gmail.com",
+                        "emailVerified": false,
+                        "isAnonymous": false,
+                        "lastLoginAt": "1627240375400",
+                        "multiFactor": Object {
+                          "enrolledFactors": Array [],
+                        },
+                        "phoneNumber": null,
+                        "photoURL": "https://firebasestorage.googleapis.com/v0/b/inventic2306170621.appspot.com/o/avatars%2FjyvyBYBaakSCPsPgNeJdMavKHCj2?alt=media&token=ba8bbc55-fcb3-4298-86f9-814457ebb41c",
+                        "providerData": Array [
+                          Object {
+                            "displayName": "Alex Noruega ",
+                            "email": "2060fw4r@gmail.com",
+                            "phoneNumber": null,
+                            "photoURL": "https://firebasestorage.googleapis.com/v0/b/inventic2306170621.appspot.com/o/avatars%2FjyvyBYBaakSCPsPgNeJdMavKHCj2?alt=media&token=ba8bbc55-fcb3-4298-86f9-814457ebb41c",
+                            "providerId": "password",
+                            "uid": "2060fw4r@gmail.com",
+                          },
+                        ],
+                        "redirectEventId": null,
+                        "stsTokenManager": Object {
+                          "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjFiYjk2MDVjMzZlOThlMzAxMTdhNjk1MTc1NjkzODY4MzAyMDJiMmQiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWxleCBOb3J1ZWdhICIsInBpY3R1cmUiOiJodHRwczovL2ZpcmViYXNlc3RvcmFnZS5nb29nbGVhcGlzLmNvbS92MC9iL2ludmVudGljMjMwNjE3MDYyMS5hcHBzcG90LmNvbS9vL2F2YXRhcnMlMkZqeXZ5QllCYWFrU0NQc1BnTmVKZE1hdktIQ2oyP2FsdD1tZWRpYSZ0b2tlbj1iYThiYmM1NS1mY2IzLTQyOTgtODZmOS04MTQ0NTdlYmI0MWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaW52ZW50aWMyMzA2MTcwNjIxIiwiYXVkIjoiaW52ZW50aWMyMzA2MTcwNjIxIiwiYXV0aF90aW1lIjoxNjI3MjQwMzg3LCJ1c2VyX2lkIjoianl2eUJZQmFha1NDUHNQZ05lSmRNYXZLSENqMiIsInN1YiI6Imp5dnlCWUJhYWtTQ1BzUGdOZUpkTWF2S0hDajIiLCJpYXQiOjE2MjcyNjA1MzEsImV4cCI6MTYyNzI2NDEzMSwiZW1haWwiOiIyMDYwZnc0ckBnbWFpbC5jb20iLCJ...(truncated to the first 10000 characters)
+INFO
+20:17
+startRestaurant 
+INFO
+20:17
+Zu {
+  "_": vu {
+    "Hf": Ku {
+      "firestore": Qu {
+        "INTERNAL": Object {
+          "delete": [Function _delete],
+        },
+        "Id": qu {},
+        "_": tu {
+          "A_": FirebaseAppImpl {
+            "automaticDataCollectionEnabled_": false,
+            "container": ComponentContainer {
+              "name": "[DEFAULT]",
+              "providers": Map {
+                "app" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "app",
+                    "serviceProps": Object {},
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => [Circular],
+                  },
+                  "instancesDeferred": Map {},
+                  "name": "app",
+                },
+                "platform-logger" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "platform-logger",
+                    "serviceProps": Object {},
+                    "type": "PRIVATE",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "platform-logger",
+                },
+                "fire-core-rn-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-core-rn-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-core-rn-version",
+                },
+                "fire-js-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-js-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-js-version",
+                },
+                "firebase-app-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "firebase-app-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "firebase-app-version",
+                },
+                "firestore" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "firestore",
+                    "serviceProps": Object {
+                      "Blob": [Function $],
+                      "CACHE_SIZE_UNLIMITED": -1,
+                      "CollectionReference": [Function sh],
+                      "DocumentReference": [Function zu],
+                      "DocumentSnapshot": [Function Xu],
+                      "FieldPath": [Function rh],
+                      "FieldValue": [Function oh],
+                      "Firestore": [Function Qu],
+                      "GeoPoint": [Function sa],
+                      "Query": [Function th],
+                      "QueryDocumentSnapshot": [Function Zu],
+                      "QuerySnapshot": [Function nh],
+                      "Timestamp": [Function H],
+                      "Transaction": [Function Wu],
+                      "WriteBatch": [Function Gu],
+                      "setLogLevel": [Function ju],
+                    },
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => [Circular],
+                  },
+                  "instancesDeferred": Map {},
+                  "name": "firestore",
+                },
+                "fire-fst-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-fst-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-fst-version",
+                },
+                "auth" => Provider {
+                  "component": Object {
+                    "instanceFactory": [Function instanceFactory],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "auth",
+                    "serviceProps": Object {
+                      "ActionCodeInfo": Object {
+                        "Operation": Object {
+                          "EMAIL_SIGNIN": "EMAIL_SIGNIN",
+                          "PASSWORD_RESET": "PASSWORD_RESET",
+                          "RECOVER_EMAIL": "RECOVER_EMAIL",
+                          "REVERT_SECOND_FACTOR_ADDITION": "REVERT_SECOND_FACTOR_ADDITION",
+                          "VERIFY_AND_CHANGE_EMAIL": "VERIFY_AND_CHANGE_EMAIL",
+                          "VERIFY_EMAIL": "VERIFY_EMAIL",
+                        },
+                      },
+                      "ActionCodeURL": [Function d],
+                      "Auth": [Function En],
+                      "AuthCredential": [Function Bg],
+                      "EmailAuthProvider": [Function d],
+                      "Error": [Function t],
+                      "FacebookAuthProvider": [Function d],
+                      "GithubAuthProvider": [Function d],
+                      "GoogleAuthProvider": [Function d],
+                      "OAuthProvider": [Function d],
+                      "PhoneAuthProvider": [Function d],
+                      "PhoneMultiFactorGenerator": [Function d],
+                      "RecaptchaVerifier": [Function d],
+                      "SAMLAuthProvider": [Function d],
+                      "TwitterAuthProvider": [Function d],
+                    },
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => Object {
+                      "apiKey": "AIzaSyAKWkrRBAiYrFTQdF4hEH4wL6SS-QjlZKw",
+                      "appName": "[DEFAULT]",
+                      "authDomain": "inventic2306170621.firebaseapp.com",
+                      "currentUser": Object {
+                        "apiKey": "AIzaSyAKWkrRBAiYrFTQdF4hEH4wL6SS-QjlZKw",
+                        "appName": "[DEFAULT]",
+                        "authDomain": "inventic2306170621.firebaseapp.com",
+                        "createdAt": "1623993043980",
+                        "displayName": "Alex Noruega ",
+                        "email": "2060fw4r@gmail.com",
+                        "emailVerified": false,
+                        "isAnonymous": false,
+                        "lastLoginAt": "1627240375400",
+                        "multiFactor": Object {
+                          "enrolledFactors": Array [],
+                        },
+                        "phoneNumber": null,
+                        "photoURL": "https://firebasestorage.googleapis.com/v0/b/inventic2306170621.appspot.com/o/avatars%2FjyvyBYBaakSCPsPgNeJdMavKHCj2?alt=media&token=ba8bbc55-fcb3-4298-86f9-814457ebb41c",
+                        "providerData": Array [
+                          Object {
+                            "displayName": "Alex Noruega ",
+                            "email": "2060fw4r@gmail.com",
+                            "phoneNumber": null,
+                            "photoURL": "https://firebasestorage.googleapis.com/v0/b/inventic2306170621.appspot.com/o/avatars%2FjyvyBYBaakSCPsPgNeJdMavKHCj2?alt=media&token=ba8bbc55-fcb3-4298-86f9-814457ebb41c",
+                            "providerId": "password",
+                            "uid": "2060fw4r@gmail.com",
+                          },
+                        ],
+                        "redirectEventId": null,
+                        "stsTokenManager": Object {
+                          "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjFiYjk2MDVjMzZlOThlMzAxMTdhNjk1MTc1NjkzODY4MzAyMDJiMmQiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWxleCBOb3J1ZWdhICIsInBpY3R1cmUiOiJodHRwczovL2ZpcmViYXNlc3RvcmFnZS5nb29nbGVhcGlzLmNvbS92MC9iL2ludmVudGljMjMwNjE3MDYyMS5hcHBzcG90LmNvbS9vL2F2YXRhcnMlMkZqeXZ5QllCYWFrU0NQc1BnTmVKZE1hdktIQ2oyP2FsdD1tZWRpYSZ0b2tlbj1iYThiYmM1NS1mY2IzLTQyOTgtODZmOS04MTQ0NTdlYmI0MWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaW52ZW50aWMyMzA2MTcwNjIxIiwiYXVkIjoiaW52ZW50aWMyMzA2MTcwNjIxIiwiYXV0aF90aW1lIjoxNjI3MjQwMzg3LCJ1c2VyX2lkIjoianl2eUJZQmFha1NDUHNQZ05lSmRNYXZLSENqMiIsInN1YiI6Imp5dnlCWUJhYWtTQ1BzUGdOZUpkTWF2S0hDajIiLCJpYXQiOjE2MjcyNjA1MzEsImV4cCI6MTYyNzI2NDEzMSwiZW1haWwiOiIyMDYwZnc0ckBnbWFpbC5jb20iLCJ...(truncated to the first 10000 characters)
+INFO
+20:17
+startRestaurant 
+INFO
+20:17
+Zu {
+  "_": vu {
+    "Hf": Ku {
+      "firestore": Qu {
+        "INTERNAL": Object {
+          "delete": [Function _delete],
+        },
+        "Id": qu {},
+        "_": tu {
+          "A_": FirebaseAppImpl {
+            "automaticDataCollectionEnabled_": false,
+            "container": ComponentContainer {
+              "name": "[DEFAULT]",
+              "providers": Map {
+                "app" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "app",
+                    "serviceProps": Object {},
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => [Circular],
+                  },
+                  "instancesDeferred": Map {},
+                  "name": "app",
+                },
+                "platform-logger" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "platform-logger",
+                    "serviceProps": Object {},
+                    "type": "PRIVATE",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "platform-logger",
+                },
+                "fire-core-rn-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-core-rn-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-core-rn-version",
+                },
+                "fire-js-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-js-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-js-version",
+                },
+                "firebase-app-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "firebase-app-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "firebase-app-version",
+                },
+                "firestore" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "firestore",
+                    "serviceProps": Object {
+                      "Blob": [Function $],
+                      "CACHE_SIZE_UNLIMITED": -1,
+                      "CollectionReference": [Function sh],
+                      "DocumentReference": [Function zu],
+                      "DocumentSnapshot": [Function Xu],
+                      "FieldPath": [Function rh],
+                      "FieldValue": [Function oh],
+                      "Firestore": [Function Qu],
+                      "GeoPoint": [Function sa],
+                      "Query": [Function th],
+                      "QueryDocumentSnapshot": [Function Zu],
+                      "QuerySnapshot": [Function nh],
+                      "Timestamp": [Function H],
+                      "Transaction": [Function Wu],
+                      "WriteBatch": [Function Gu],
+                      "setLogLevel": [Function ju],
+                    },
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => [Circular],
+                  },
+                  "instancesDeferred": Map {},
+                  "name": "firestore",
+                },
+                "fire-fst-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-fst-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-fst-version",
+                },
+                "auth" => Provider {
+                  "component": Object {
+                    "instanceFactory": [Function instanceFactory],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "auth",
+                    "serviceProps": Object {
+                      "ActionCodeInfo": Object {
+                        "Operation": Object {
+                          "EMAIL_SIGNIN": "EMAIL_SIGNIN",
+                          "PASSWORD_RESET": "PASSWORD_RESET",
+                          "RECOVER_EMAIL": "RECOVER_EMAIL",
+                          "REVERT_SECOND_FACTOR_ADDITION": "REVERT_SECOND_FACTOR_ADDITION",
+                          "VERIFY_AND_CHANGE_EMAIL": "VERIFY_AND_CHANGE_EMAIL",
+                          "VERIFY_EMAIL": "VERIFY_EMAIL",
+                        },
+                      },
+                      "ActionCodeURL": [Function d],
+                      "Auth": [Function En],
+                      "AuthCredential": [Function Bg],
+                      "EmailAuthProvider": [Function d],
+                      "Error": [Function t],
+                      "FacebookAuthProvider": [Function d],
+                      "GithubAuthProvider": [Function d],
+                      "GoogleAuthProvider": [Function d],
+                      "OAuthProvider": [Function d],
+                      "PhoneAuthProvider": [Function d],
+                      "PhoneMultiFactorGenerator": [Function d],
+                      "RecaptchaVerifier": [Function d],
+                      "SAMLAuthProvider": [Function d],
+                      "TwitterAuthProvider": [Function d],
+                    },
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => Object {
+                      "apiKey": "AIzaSyAKWkrRBAiYrFTQdF4hEH4wL6SS-QjlZKw",
+                      "appName": "[DEFAULT]",
+                      "authDomain": "inventic2306170621.firebaseapp.com",
+                      "currentUser": Object {
+                        "apiKey": "AIzaSyAKWkrRBAiYrFTQdF4hEH4wL6SS-QjlZKw",
+                        "appName": "[DEFAULT]",
+                        "authDomain": "inventic2306170621.firebaseapp.com",
+                        "createdAt": "1623993043980",
+                        "displayName": "Alex Noruega ",
+                        "email": "2060fw4r@gmail.com",
+                        "emailVerified": false,
+                        "isAnonymous": false,
+                        "lastLoginAt": "1627240375400",
+                        "multiFactor": Object {
+                          "enrolledFactors": Array [],
+                        },
+                        "phoneNumber": null,
+                        "photoURL": "https://firebasestorage.googleapis.com/v0/b/inventic2306170621.appspot.com/o/avatars%2FjyvyBYBaakSCPsPgNeJdMavKHCj2?alt=media&token=ba8bbc55-fcb3-4298-86f9-814457ebb41c",
+                        "providerData": Array [
+                          Object {
+                            "displayName": "Alex Noruega ",
+                            "email": "2060fw4r@gmail.com",
+                            "phoneNumber": null,
+                            "photoURL": "https://firebasestorage.googleapis.com/v0/b/inventic2306170621.appspot.com/o/avatars%2FjyvyBYBaakSCPsPgNeJdMavKHCj2?alt=media&token=ba8bbc55-fcb3-4298-86f9-814457ebb41c",
+                            "providerId": "password",
+                            "uid": "2060fw4r@gmail.com",
+                          },
+                        ],
+                        "redirectEventId": null,
+                        "stsTokenManager": Object {
+                          "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjFiYjk2MDVjMzZlOThlMzAxMTdhNjk1MTc1NjkzODY4MzAyMDJiMmQiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWxleCBOb3J1ZWdhICIsInBpY3R1cmUiOiJodHRwczovL2ZpcmViYXNlc3RvcmFnZS5nb29nbGVhcGlzLmNvbS92MC9iL2ludmVudGljMjMwNjE3MDYyMS5hcHBzcG90LmNvbS9vL2F2YXRhcnMlMkZqeXZ5QllCYWFrU0NQc1BnTmVKZE1hdktIQ2oyP2FsdD1tZWRpYSZ0b2tlbj1iYThiYmM1NS1mY2IzLTQyOTgtODZmOS04MTQ0NTdlYmI0MWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaW52ZW50aWMyMzA2MTcwNjIxIiwiYXVkIjoiaW52ZW50aWMyMzA2MTcwNjIxIiwiYXV0aF90aW1lIjoxNjI3MjQwMzg3LCJ1c2VyX2lkIjoianl2eUJZQmFha1NDUHNQZ05lSmRNYXZLSENqMiIsInN1YiI6Imp5dnlCWUJhYWtTQ1BzUGdOZUpkTWF2S0hDajIiLCJpYXQiOjE2MjcyNjA1MzEsImV4cCI6MTYyNzI2NDEzMSwiZW1haWwiOiIyMDYwZnc0ckBnbWFpbC5jb20iLCJ...(truncated to the first 10000 characters)
+INFO
+20:17
+startRestaurant 
+INFO
+20:17
+Zu {
+  "_": vu {
+    "Hf": Ku {
+      "firestore": Qu {
+        "INTERNAL": Object {
+          "delete": [Function _delete],
+        },
+        "Id": qu {},
+        "_": tu {
+          "A_": FirebaseAppImpl {
+            "automaticDataCollectionEnabled_": false,
+            "container": ComponentContainer {
+              "name": "[DEFAULT]",
+              "providers": Map {
+                "app" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "app",
+                    "serviceProps": Object {},
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => [Circular],
+                  },
+                  "instancesDeferred": Map {},
+                  "name": "app",
+                },
+                "platform-logger" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "platform-logger",
+                    "serviceProps": Object {},
+                    "type": "PRIVATE",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "platform-logger",
+                },
+                "fire-core-rn-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-core-rn-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-core-rn-version",
+                },
+                "fire-js-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-js-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-js-version",
+                },
+                "firebase-app-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "firebase-app-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "firebase-app-version",
+                },
+                "firestore" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "firestore",
+                    "serviceProps": Object {
+                      "Blob": [Function $],
+                      "CACHE_SIZE_UNLIMITED": -1,
+                      "CollectionReference": [Function sh],
+                      "DocumentReference": [Function zu],
+                      "DocumentSnapshot": [Function Xu],
+                      "FieldPath": [Function rh],
+                      "FieldValue": [Function oh],
+                      "Firestore": [Function Qu],
+                      "GeoPoint": [Function sa],
+                      "Query": [Function th],
+                      "QueryDocumentSnapshot": [Function Zu],
+                      "QuerySnapshot": [Function nh],
+                      "Timestamp": [Function H],
+                      "Transaction": [Function Wu],
+                      "WriteBatch": [Function Gu],
+                      "setLogLevel": [Function ju],
+                    },
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => [Circular],
+                  },
+                  "instancesDeferred": Map {},
+                  "name": "firestore",
+                },
+                "fire-fst-version" => Provider {
+                  "component": Component {
+                    "instanceFactory": [Function anonymous],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "fire-fst-version",
+                    "serviceProps": Object {},
+                    "type": "VERSION",
+                  },
+                  "container": [Circular],
+                  "instances": Map {},
+                  "instancesDeferred": Map {},
+                  "name": "fire-fst-version",
+                },
+                "auth" => Provider {
+                  "component": Object {
+                    "instanceFactory": [Function instanceFactory],
+                    "instantiationMode": "LAZY",
+                    "multipleInstances": false,
+                    "name": "auth",
+                    "serviceProps": Object {
+                      "ActionCodeInfo": Object {
+                        "Operation": Object {
+                          "EMAIL_SIGNIN": "EMAIL_SIGNIN",
+                          "PASSWORD_RESET": "PASSWORD_RESET",
+                          "RECOVER_EMAIL": "RECOVER_EMAIL",
+                          "REVERT_SECOND_FACTOR_ADDITION": "REVERT_SECOND_FACTOR_ADDITION",
+                          "VERIFY_AND_CHANGE_EMAIL": "VERIFY_AND_CHANGE_EMAIL",
+                          "VERIFY_EMAIL": "VERIFY_EMAIL",
+                        },
+                      },
+                      "ActionCodeURL": [Function d],
+                      "Auth": [Function En],
+                      "AuthCredential": [Function Bg],
+                      "EmailAuthProvider": [Function d],
+                      "Error": [Function t],
+                      "FacebookAuthProvider": [Function d],
+                      "GithubAuthProvider": [Function d],
+                      "GoogleAuthProvider": [Function d],
+                      "OAuthProvider": [Function d],
+                      "PhoneAuthProvider": [Function d],
+                      "PhoneMultiFactorGenerator": [Function d],
+                      "RecaptchaVerifier": [Function d],
+                      "SAMLAuthProvider": [Function d],
+                      "TwitterAuthProvider": [Function d],
+                    },
+                    "type": "PUBLIC",
+                  },
+                  "container": [Circular],
+                  "instances": Map {
+                    "[DEFAULT]" => Object {
+                      "apiKey": "AIzaSyAKWkrRBAiYrFTQdF4hEH4wL6SS-QjlZKw",
+                      "appName": "[DEFAULT]",
+                      "authDomain": "inventic2306170621.firebaseapp.com",
+                      "currentUser": Object {
+                        "apiKey": "AIzaSyAKWkrRBAiYrFTQdF4hEH4wL6SS-QjlZKw",
+                        "appName": "[DEFAULT]",
+                        "authDomain": "inventic2306170621.firebaseapp.com",
+                        "createdAt": "1623993043980",
+                        "displayName": "Alex Noruega ",
+                        "email": "2060fw4r@gmail.com",
+                        "emailVerified": false,
+                        "isAnonymous": false,
+                        "lastLoginAt": "1627240375400",
+                        "multiFactor": Object {
+                          "enrolledFactors": Array [],
+                        },
+                        "phoneNumber": null,
+                        "photoURL": "https://firebasestorage.googleapis.com/v0/b/inventic2306170621.appspot.com/o/avatars%2FjyvyBYBaakSCPsPgNeJdMavKHCj2?alt=media&token=ba8bbc55-fcb3-4298-86f9-814457ebb41c",
+                        "providerData": Array [
+                          Object {
+                            "displayName": "Alex Noruega ",
+                            "email": "2060fw4r@gmail.com",
+                            "phoneNumber": null,
+                            "photoURL": "https://firebasestorage.googleapis.com/v0/b/inventic2306170621.appspot.com/o/avatars%2FjyvyBYBaakSCPsPgNeJdMavKHCj2?alt=media&token=ba8bbc55-fcb3-4298-86f9-814457ebb41c",
+                            "providerId": "password",
+                            "uid": "2060fw4r@gmail.com",
+                          },
+                        ],
+                        "redirectEventId": null,
+                        "stsTokenManager": Object {
+                          "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjFiYjk2MDVjMzZlOThlMzAxMTdhNjk1MTc1NjkzODY4MzAyMDJiMmQiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWxleCBOb3J1ZWdhICIsInBpY3R1cmUiOiJodHRwczovL2ZpcmViYXNlc3RvcmFnZS5nb29nbGVhcGlzLmNvbS92MC9iL2ludmVudGljMjMwNjE3MDYyMS5hcHBzcG90LmNvbS9vL2F2YXRhcnMlMkZqeXZ5QllCYWFrU0NQc1BnTmVKZE1hdktIQ2oyP2FsdD1tZWRpYSZ0b2tlbj1iYThiYmM1NS1mY2IzLTQyOTgtODZmOS04MTQ0NTdlYmI0MWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaW52ZW50aWMyMzA2MTcwNjIxIiwiYXVkIjoiaW52ZW50aWMyMzA2MTcwNjIxIiwiYXV0aF90aW1lIjoxNjI3MjQwMzg3LCJ1c2VyX2lkIjoianl2eUJZQmFha1NDUHNQZ05lSmRNYXZLSENqMiIsInN1YiI6Imp5dnlCWUJhYWtTQ1BzUGdOZUpkTWF2S0hDajIiLCJpYXQiOjE2MjcyNjA1MzEsImV4cCI6MTYyNzI2NDEzMSwiZW1haWwiOiIyMDYwZnc0ckBnbWFpbC5jb20iLCJ...(truncated to the first 10000 characters)
+WARNING
+20:17
+Setting a timer for a long period of time, i.e. multiple minutes, is a performance and correctness issue on Android as it keeps the timer module awake, and timers can only be called when the app is in the foreground. See https://github.com/facebook/react-native/issues/12981 for more info.
+(Saw setTimeout with duration 360785ms)
+
+Stack trace:
+  node_modules\react-native\Libraries\LogBox\LogBox.js:117:10 in registerWarning
+  node_modules\react-native\Libraries\LogBox\LogBox.js:63:8 in warnImpl
+  node_modules\react-native\Libraries\LogBox\LogBox.js:36:4 in console.warn
+  node_modules\expo\build\environment\react-native-logs.fx.js:18:4 in warn
+  node_modules\react-native\Libraries\Core\Timers\JSTimers.js:226:6 in setTimeout
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:36:389 in Db
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:40:1218 in <anonymous>
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:40:1212 in Sb
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:39:182 in m.xa
+  http://192.168.1.14:19000/node_modules%5Cexpo%5CAppEntry.bundle?platform=android&dev=true&hot=false&minify=false:181492:8 in Bc
+  http://192.168.1.14:19000/node_modules%5Cexpo%5CAppEntry.bundle?platform=android&dev=true&hot=false&minify=false:182646:8 in ce
+  http://192.168.1.14:19000/node_modules%5Cexpo%5CAppEntry.bundle?platform=android&dev=true&hot=false&minify=false:182628:85 in Da
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:28:437 in Qa$argument_1
+  node_modules\react-native\node_modules\promise\setimmediate\core.js:37:13 in tryCallOne
+  node_modules\react-native\node_modules\promise\setimmediate\core.js:123:24 in setImmediate$argument_0
+  node_modules\react-native\Libraries\Core\Timers\JSTimers.js:130:14 in _callTimer
+  node_modules\react-native\Libraries\Core\Timers\JSTimers.js:181:14 in _callImmediatesPass
+  node_modules\react-native\Libraries\Core\Timers\JSTimers.js:441:30 in callImmediates
+  node_modules\react-native\Libraries\BatchedBridge\MessageQueue.js:387:6 in __callImmediates
+  node_modules\react-native\Libraries\BatchedBridge\MessageQueue.js:135:6 in __guard$argument_0
+  node_modules\react-native\Libraries\BatchedBridge\MessageQueue.js:364:10 in __guard
+  node_modules\react-native\Libraries\BatchedBridge\MessageQueue.js:134:4 in flushedQueue
+  [native code]:null in flushedQueue
+  [native code]:null in callFunctionReturnFlushedQueue
+  ...
+WARNING
+20:17
+Setting a timer for a long period of time, i.e. multiple minutes, is a performance and correctness issue on Android as it keeps the timer module awake, and timers can only be called when the app is in the foreground. See https://github.com/facebook/react-native/issues/12981 for more info.
+(Saw setTimeout with duration 360785ms)
+
+Stack trace:
+  node_modules\react-native\Libraries\LogBox\LogBox.js:117:10 in registerWarning
+  node_modules\react-native\Libraries\LogBox\LogBox.js:63:8 in warnImpl
+  node_modules\react-native\Libraries\LogBox\LogBox.js:36:4 in console.warn
+  node_modules\expo\build\environment\react-native-logs.fx.js:18:4 in warn
+  node_modules\react-native\Libraries\Core\Timers\JSTimers.js:226:6 in setTimeout
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:36:389 in Db
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:40:1218 in <anonymous>
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:40:1212 in Sb
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:40:642 in Lb
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:40:185 in Fb
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:26:741 in Ma
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:26:353 in Fa
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:55:65 in <anonymous>
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:54:351 in <anonymous>
+  node_modules\@firebase\webchannel-wrapper\dist\index.js:54:414 in m.forEach
+  [native code]:null in <unknown>
+  node_modules\event-target-shim\dist\event-target-shim.js:818:20 in EventTarget.prototype.dispatchEvent
+  node_modules\react-native\Libraries\Network\XMLHttpRequest.js:592:4 in setReadyState
+  node_modules\react-native\Libraries\Network\XMLHttpRequest.js:357:4 in __didReceiveIncrementalData
+  node_modules\react-native\Libraries\vendor\emitter\EventEmitter.js:189:10 in emit
+  node_modules\react-native\Libraries\BatchedBridge\MessageQueue.js:416:4 in __callFunction
+  node_modules\react-native\Libraries\BatchedBridge\MessageQueue.js:109:6 in __guard$argument_0
+  node_modules\react-native\Libraries\BatchedBridge\MessageQueue.js:364:10 in __guard
+  node_modules\react-native\Libraries\BatchedBridge\MessageQueue.js:108:4 in callFunctionReturnFlushedQueue
+  [native code]:null in callFunctionReturnFlushedQueue
+  ...
