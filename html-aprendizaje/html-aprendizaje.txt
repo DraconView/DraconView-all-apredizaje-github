@@ -38,7 +38,17 @@ Contenido secundario sin relevancia
 	<footer> // footer contenido pie de pagina 
 	aprendiendo HTML5 con @jonmircha 
 	</footer>
+	<p>etiqueta p</p> // etiquetas que se pueden aprovechar en el cuerpo de una pagina // etiqueta para parrafos 
+	<h1>etiqueta p</h1> // solo hay del 1 al 6 h1(titulo importante de este documento)
 </body>
 </html>
 
+no es bueno tener texto suelto en el body deberia estar envuelto en una etiqueta 
 para acentuar una letra se coloca p&aacute;gina => pagina
+
+<p>
+Palabras en: <b>negrita</b>, <i>itálica</i>; <u>subrayado</u>, e=mc<sup>2</sup>,
+H<sub>2</sub>,
+<mark>marcatexto</mark> <small>letras pequeñas</small>
+</p>
+
