@@ -2,6 +2,7 @@
 --------------- jonmircha curso react CAP4 ----------------
 
 - los datos fluyen en una sola direccion de padre a hijo
+* los componentes basados en clases necesitan su metodo render
 
 - los datos se pasan por Props
 

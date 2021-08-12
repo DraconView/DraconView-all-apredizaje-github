@@ -10,7 +10,12 @@ TIPOS DE DATOS SOPORTADOS POR JSON
 * los numeros no deben ir entre comillas 
 * la extension es .json
 * los valores deben ir encerrado entre llaves {}
-* cada declaracion debe ir separado por (,) comillas S
+* cada declaracion debe ir separado por (,) comillas 
+
+let persona = {
+	"nombre":"jesus",
+	"edad":22
+}
 
 {
 	“nombre" : "Eugenia" ,
