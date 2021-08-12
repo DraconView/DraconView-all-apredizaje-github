@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "restaurants_comentarios",
+    "slug": "restaurants_comentarios",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+   },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zulu.restaurants", //en ios solo puede haber uno este nombre a nivel mundial
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.960479336113-sgbb7pfi8aprku4c7gtscgak0f5hjbkc"
+        }
+      },
+	  "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "package": "com.zulu.restaurants",//este nombre se debe cambiar
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+		//falta la version
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAiSV22B_JwDGoxCNf6VWFMCelxGwmgTJs"
+        }
+      },
+      "permissions": [
+        "CAMERA", 
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "USER_FACING_NOTIFICATIONS"
+      ],
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+
+"private": true, // para cuando se crean librerias o modulos aparte 

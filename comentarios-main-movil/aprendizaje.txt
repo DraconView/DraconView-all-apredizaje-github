@@ -1,0 +1,79 @@
+- //[CAP53] explica la creacion de un componente reutilizable en las vistas en este caso un modal
+- la doble llave sirve para definir las propiedades de objeto 
+- isEmpty de lodash (valida que el usuario si ingreso algo)
+- user !== null ? (setLogin(false)) : (setLogin(false))
+- todos los componentes por obligacion deben comenzar en mayuscula 
+- try cash manejan fragmentos de código propensos a fallar, recibir un valor nulo, convertir un tipo de dato. Si el código que está dentro del try falla, se ejecuta el catch y el programa se sigue ejecutando.
+- set es un modificador de estado
+- toastRef.current.show(mostrar mensajes en pantalla) , tambien se debe definir en la vista 
+- const onChange = (e, type) => {  }, asi reciben los parametros las funciones tipo flechas (e, type)
+- set(asigna valores) get(solicita los valores) push(agrega)
+- const widthScreen = Dimensions.get("window").width //[CAP68] OBTENER DIMENSIONES DE LA PANTALLA 
+- view es una vista fija y ScrollView es una vista con dezplazamiento vertical o horizontal VIEW Y SCROLLVIEW buscar referencias
+- es bueno separar los import de uno de los de terceros
+DEPENDENCIAS
+- useEffect(cuando entre la primer vez) useFocusEffect(se activa cada vez que cargue esa vista)
+- ...(spread operator) para juntar la informacion de 2 elementos
+- METER SEGURIDAD
+-- import firebase from 'firebase/app'
+-- const [userLogged, setUserLogged] = useState(false)
+-- firebase.auth().onAuthStateChanged(user => {
+        user ? setUserLogged(true) : setUserLogged(false)
+        setCurrentUser(user)
+    })
+
+
+- const goRestaurtant = () => { navigation.navigate("restaurant", { id, name }) } //[CAP81] pasando parametros a la navegacion
+    export default function Restaurant({ navigation, route }) { //[CAP81] route(objeto que contiene las lista de parametros que se reciben por navegacion) en su propiedad route.params
+    const { id, name } = route.params
+
+------------------------------ CONCEPTOS --------------------------------- 
+- para llamar una navegacion debe tener conexion con el archivo stack de navegacion
+- la funcion tipo flecha usa cuando se van a pasar parametros
+- console.log() es un recurso muy importante para comprobar el manejo de datos 
+- async(se debe crear cuando se va llamar un metodo asincorono)
+
+
+-------------------------------- DUDAS -----------------------------------
+- todas las vistas llevan un estilo principal viewBody
+
+------------------------- METODOS O FUNCIONES -----------------------------
+- [CAP90] useCallback(refrescar vista automaticamente)
+- onPress: () => function(parametros), sirve para mandar metodos como parametros, 
+- console.log() es un recurso muy importante para comprobar el manejo de datos 
+- .Content propiedad del ListItem
+
+------------------------------- ESTILOS -----------------------------------
+
+- alignSelf: "center",
+- alignItems: "center"
+- backgroundColor: "#fff" o "transparent"
+- borderBottomColor: "#000000",
+- borderBottomWidth: 1
+- borderBottomLeftRadius: 100,
+- color: "#00a310"
+- marginBottom: 15
+- marginTop: 30,            // margen arriba
+- marginHorizontal: 14,     // margen horizontal
+- margin: 15,
+- padding: 15               // agrega separacion todos los lados
+- paddingLeft: 15
+- position: "absolute",
+- paddingHorizontal: 10
+- flexDirection: "row"      // alinea horizontalmente
+- fontSize: 17,             // tamaño de fuente
+- fontWeight: "bold"        // peso 
+- flex: 1
+- height: 50,
+- textAlign: "justify"
+- top: 200,
+- right: 0
+- zIndex: 1 // (controla la superposicion de los objetos)
+- justifyContent: "space-between" // separa equitativamente
+- width: "95%"
+-
+
+----------------------------- DEPENDENCIAS --------------------------------
+- random-uuid-v4 genera codigos que no se repitan
+- firesql facilidad en el manejo de los datos 
+- import Constans from 'expo-constants' // sirve para saber si se esta ejecutando desde un desde dispositivo fisico

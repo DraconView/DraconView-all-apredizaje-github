@@ -1,0 +1,67 @@
+TIPOS DE DATOS SOPORTADOS POR JSON
+→ NUMBERS: NO DIFERENCIA ENTRE “INTEGERS” Y “FLOATS”
+→ STRINGS: CADENA DE CARACTERES EN UNICODE. USA DOBLES COMILLAS
+→ BOOLEAN: TRUE Y FALSE
+→ ARRAYS: ORDENANDO DE O A MÁS VALORES
+→ OBJECTS: COLECCIÓN DESORDENADA DE PARES CLAVE/VALOR
+→ NULL: VALOR VACIO
+
+* usa clave valor y doble comillas ejemplo: "nombre": "eugenia" 
+* los numeros no deben ir entre comillas 
+* la extension es .json
+* los valores deben ir encerrado entre llaves {}
+* cada declaracion debe ir separado por (,) comillas S
+
+{
+	“nombre" : "Eugenia" ,
+	“contraseña”: “Eugenia 123",
+	"direccion":{
+	"calle" : "calle libertad 567",
+	"ciudad": "Boston”
+	},
+	"Edad":20,
+	“Hijos": [ “ivan”, “anastasia” ]
+}
+
+{
+   "squadName": "Escuadrón de superhéroes",
+   "homeTown": "Metro City",
+   "formado": 2016,
+   "secretBase": "Super torre",
+   "activo": verdadero,
+   "miembros": [
+     {
+       "name": "Hombre Molécula",
+       "edad": 29,
+       "Identidad secreta": "Dan Jukes",
+       "poderes": [
+         "Resistencia a la radiación",
+         "Volviéndose diminuto",
+         "Explosión de radiación"
+       ]
+     },
+     {
+       "name": "Madame Uppercut",
+       "edad": 39,
+       "secretIdentity": "Jane Wilson",
+       "poderes": [
+         "Millones de toneladas de ponche",
+         "Resistencia al daño",
+         "Reflejos sobrehumanos"
+       ]
+     },
+     {
+       "name": "Llama eterna",
+       "edad": 1000000,
+       "secretIdentity": "Desconocido",
+       "poderes": [
+         "Inmortalidad",
+         "Inmunidad al calor",
+         "Infierno",
+         "Teletransportación",
+         "Viajes interdimensionales"
+       ]
+     }
+   ]
+}
+
