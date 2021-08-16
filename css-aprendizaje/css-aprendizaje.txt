@@ -1,0 +1,6 @@
+border-sizing: boder-box;
+box-sizing
+Como su nombre lo dice, tamaño de caja, por ejemplo, defines un contenedor de 500px por 500px, esos pixeles incluirían todo el relleno que le pongas, como el borde por ejemplo
+Nunca tendrá más tamaño que 500px por 500px hagas lo que hagas
+Eso hace que sea más fácil acomodar los elementos y dimensionarlos
+

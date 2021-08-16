@@ -43,12 +43,17 @@ Contenido secundario sin relevancia
 </body>
 </html>
 
-no es bueno tener texto suelto en el body deberia estar envuelto en una etiqueta 
-para acentuar una letra se coloca p&aacute;gina => pagina
+* no es bueno tener texto suelto en el body deberia estar envuelto en una etiqueta 
+* solo puede haber un main en todo el archivo HTML
+* para acentuar una letra se coloca p&aacute;gina => pagina
 
-<p>
-Palabras en: <b>negrita</b>, <i>itálica</i>; <u>subrayado</u>, e=mc<sup>2</sup>,
-H<sub>2</sub>,
-<mark>marcatexto</mark> <small>letras pequeñas</small>
-</p>
+		<p>
+		Palabras en: <b>negrita</b>, <i>itálica</i>; <u>subrayado</u>, e=mc<sup>2</sup>,
+		H<sub>2</sub>,
+		<mark>marcatexto</mark> <small>letras pequeñas</small>
+		</p>
+
+
+document.getElementById Devuelve una referencia al elemento por su ID.
+
 

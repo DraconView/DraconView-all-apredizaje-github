@@ -12,11 +12,38 @@ TIPOS DE DATOS SOPORTADOS POR JSON
 * los valores deben ir encerrado entre llaves {}
 * cada declaracion debe ir separado por (,) comillas 
 
+ejemplo objeto json
 let persona = {
 	"nombre":"jesus",
 	"edad":22
 }
+console.log(persona.nombre); // acceder al dato
 
+ejemplo array de objetos json
+	let personas = [
+		{"nombre":"jesus", "edad":22},
+		{"nombre":"ana", "edad":27},
+		{"nombre":"jesica", "edad":19}
+	];
+console.log(personas.[0]); // acceder al dato debe ser por indice
+
+for(var i = 0;  i < personas.length; i++) { // var i = 0(epieza desde el indice 0), < personas.length oX2(mientras los indices sea menor que la cantidad de personas en el array), aumenta 1
+console.log(personas[i]); // mostrar en el indice i oX2
+}
+
+ejemplo de archivo .json revisar ejemplo de los package
+{ // llaves desde el inicio del archivo	
+	"personas" = [ // entre comillas 
+		{"nombre":"jesus", "edad":22},
+		{"nombre":"ana", "edad":27},
+		{"nombre":"jesica", "edad":19}
+	]
+}	
+
+
+
+
+-----------------------------------------------
 {
 	“nombre" : "Eugenia" ,
 	“contraseña”: “Eugenia 123",
