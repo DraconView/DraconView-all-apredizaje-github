@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-//https://github.com/jonmircha/youtube-react/tree/master/00-react-basicos/src/components
 import Componente from './components/Componente';
 import Propiedades from './components/Propiedades';
+import Estado from "./components/Estado";
+import RenderizadoCondicional from "./components/RenderizadoCondicional";
 
 function App() {
   return (
@@ -34,6 +35,11 @@ function App() {
             <Componente msg="Soy un componente pasado como Prop" />
           }
         />
+         <hr />
+          <Estado />
+          <hr />
+          <RenderizadoCondicional />
+          <hr />
         </section>
       </header>
       <section>
