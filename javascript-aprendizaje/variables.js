@@ -1,6 +1,6 @@
 agregar ejercicios de asignar valores a las variables de react zulu cap03
 
-- var(variables globales no hace validaciones de duplicidad)
+- var(variables de ambito global no hace validaciones de duplicidad), pertenecen al objeto window
 
 - let(variables de bloque) 
 
@@ -75,3 +75,15 @@ console.log(colores);
 	console.log(`La suma de: ${a} + ${b} = ${result}`)
 	
 }
+
+--------------------------------------------------------------------------
+
+console.log(numero);
+console.log(typeof(numero));
+numero = '7';
+console.log(numero);
+console.log(typeof(numero));
+var x, y;																		// declarar mas variables en una linea
+var a = 1, b = 'JavaScript';								// asiganar valores a las multiples variables en la misma linea
+// console.log(window.numero);
+var break;

@@ -22,3 +22,10 @@ Las plantillas de cadena de texto (template strings) son literales de texto que 
 - Interpolación expresiones.
 - Plantillas con una función de preprocesado (las veremos más adelante).
 - NOTA: para escapar una comilla dentro de una plantilla se usa \
+
+var objeto={nombre:"cecilio"};
+var plantilla= `hola que tal estas ${objeto.nombre}`;
+console.log(plantilla);
+
+var nombre = "ana"
+console.log(`hola como estas ${nombre}`)
