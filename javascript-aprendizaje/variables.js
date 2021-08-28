@@ -22,14 +22,12 @@ console.log(objeto);
 	
 }	
 
-- agregar valor a los array {
-
-let colores = ["blanco", "negro", "azul");
-console.log(colores);
-colores.push("anaranjado");
-console.log(colores);
-	
-}
+* agregar valor a los array {
+	let colores = ["blanco", "negro", "azul"];
+	console.log(colores);
+	colores.push("anaranjado");
+	console.log(colores);
+	}
 
 - const su estado puede cambiar cuando su valor es compuesto, por que
   son una referencia 
@@ -87,3 +85,16 @@ var x, y;																		// declarar mas variables en una linea
 var a = 1, b = 'JavaScript';								// asiganar valores a las multiples variables en la misma linea
 // console.log(window.numero);
 var break;
+
+
+* asignacion de valores al objeto de la variable
+	let pru = {nombre:"mauricio",apellido:"marquez"}
+	console.log(pru)
+	salida: {nombre: "mauricio", apellido: "marquez"}
+
+	console.log(pru.nombre)
+	salida: mauricio
+
+	pru.nombre="alexander"
+	console.log(pru)
+	salida: {nombre: "alexander", apellido: "marquez"}
