@@ -1,0 +1,2 @@
+¿Qué es una etiqueta div?
+Una etiqueta div es una etiqueta que define las divisiones lógicas existentes en el contenido de una página web. Puede utilizar etiquetas div para centrar bloques de contenido, crear efectos de columna y crear diferentes áreas de color, entre otras posibilidades.

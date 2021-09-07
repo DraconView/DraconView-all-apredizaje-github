@@ -7,3 +7,5 @@ El elemento li representa a un ítem en una lista, ya sea ordenada
 (elemento ol ) o no ordenada (elemento ul ). En la especificación 
 de HTML 5, el atributo value de este elemento está permitido únicamente
 en listas ordenadas ( ol ).
+
+React trata los componentes que empiezan con letras minúsculas como etiquetas del DOM. Por ejemplo, <div /> representa una etiqueta div HTML pero <Welcome /> 
