@@ -1,0 +1,1 @@
+* para diferenciar el si es null o algo hay que crear un if que valide lo contrario de los casos ejemplo undefined

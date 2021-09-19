@@ -1,0 +1,2 @@
+Usa la clausula distinct
+SELECT DISTINCT titulo FROM contenido ORDER BY titulo

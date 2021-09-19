@@ -1,1 +1,2 @@
 //https://github.com/jonmircha/youtube-react/tree/master/00-react-basicos/src/components
+https://www.youtube.com/playlist?list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk
