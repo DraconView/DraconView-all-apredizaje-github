@@ -1,8 +1,8 @@
 <!DOCTYPE html> 							//trabajar con el estandar html5
 <html lang="es"> 							// lang se debe especificar el idioma 
 	<head> 										// esta metainformacion no se puede ver visualmente en el dom
-		<title>p&aacute;gina dise&ntilde;ada en HTML5</title> // titulo en los resulatos de las busquedas en el navegador y titulo de las pestañas, no debe superar <!-- title - entre 55 y 65 caracteres -->
-		<meta charset="utf-8" /> 					// con atributo charset "utf-8" los caracteres raros se puede interpretarlos el navegador 
+		<title>p&aacute;gina dise&ntilde;ada en HTML5</title> // titulo de las pestañas o busquedas en el navegador , no debe superar <!-- title - entre 55 y 65 caracteres -->
+		<meta charset="utf-8" /> 					// usar set de caracteres latinos 
 		<meta name="description" content="Aqui va la descripción de mi sitio" /> // resumen del sitio web en el navegador 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> // trata de igualar el contenido a la configuracion microsoft edge 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> // area donde se visualiza el contenido y como se va adaptar pero no tiene que ver con el tema responsive de css y en ese atributo indica el ancho y escala del contenido
